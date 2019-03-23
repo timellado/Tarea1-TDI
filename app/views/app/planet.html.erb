@@ -54,8 +54,12 @@
       <th>Películas</th>
     </thead>
     <tbody>
-      <% @films.each do |film| %>
-        <td class="hover"><%= link_to film[:name], {controller: "app", action: "film", url: film[:url]} %></td>
+      <% if @films != []%>
+        <% @films.each do |film| %>
+          <td class="hover"><%= link_to film[:name], {controller: "app", action: "film", url: film[:url]} %></td>
+        <% end %>
+      <% else %>
+        <td>No aparece en películas</td>
       <% end %>
     </tbody>
   </table>

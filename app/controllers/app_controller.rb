@@ -84,4 +84,36 @@ class AppController < ApplicationController
     data = HTTParty.get('https://swapi.co/api/films', format: :json)
     @films = data["results"]
   end
+
+  def search
+    @search = params[:q]
+    @films = []
+    @people = []
+    @planets = []
+    @starships = []
+    films = HTTParty.get("https://swapi.co/api/films/?search=" + params[:q], format: :json)
+    people = HTTParty.get("https://swapi.co/api/people/?search=" + params[:q], format: :json)
+    planets = HTTParty.get("https://swapi.co/api/planets/?search=" + params[:q], format: :json)
+    starships = HTTParty.get("https://swapi.co/api/starships/?search=" + params[:q], format: :json)
+    if films["count"] != 0
+      films["results"].each do |film|
+        @films.push({"name": film["title"], "url": film["url"]})
+      end
+    end
+    if people["count"] != 0
+      people["results"].each do |person|
+        @people.push({"name": person["name"], "url": person["url"]})
+      end
+    end
+    if planets["count"] != 0
+      planets["results"].each do |planet|
+        @planets.push({"name": planet["name"], "url": planet["url"]})
+      end
+    end
+    if starships["count"] != 0
+      starships["results"].each do |starship|
+        @starships.push({"name": starship["name"], "url": starship["url"]})
+      end
+    end
+  end
 end

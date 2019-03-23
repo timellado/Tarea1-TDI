@@ -37,19 +37,23 @@
       <th>Películas</th>
     </thead>
     <tbody>
-      <% @films.each do |film| %>
-        <td class="hover"><%= link_to film[:name], {controller: "app", action: "film", url: film[:url]} %></td>
+      <% if @films != [] %>
+        <% @films.each do |film| %>
+          <td class="hover"><%= link_to film[:name], {controller: "app", action: "film", url: film[:url]} %></td>
+        <% end %>
+      <% else %>
+        <td>No aparece en películas</td>
       <% end %>
     </tbody>
   </table>
 </div>
-<div class="spaceships">
+<div class="starships">
   <table>
     <thead>
       <th>Naves</th>
     </thead>
     <tbody>
-      <% if @starship %>
+      <% if @starship != [] %>
         <% @starships.each do |starship| %>
         <td class="hover"><%= link_to starship[:name], {controller: "app", action: "starship", url: starship[:url]} %></td>
         <% end %>

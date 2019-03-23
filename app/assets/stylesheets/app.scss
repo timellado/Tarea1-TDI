@@ -4,7 +4,7 @@
 
 
 body {
-  background: url("https://lh4.googleusercontent.com/proxy/00XUnMsBeUCK6fOVgbzop6-eqmDP7tI9piqWkHzHmpH4aEXZVySHMVMB_2haKdh6HgGjyndVVDmge4s=s0-d");
+  background-image: url('/assets/sw.png');
   width: 98%;
   background-size: cover;
 }
@@ -51,7 +51,7 @@ table a {
   text-align: center;
 }
 
-.spaceships, .planets, .people, .films, .general{
+.starships, .planets, .people, .films, .general{
   overflow-x: auto;
   align-content: center;
   margin-top: 20px;
@@ -65,6 +65,17 @@ table a {
 .intro {
   padding-top: 50px;
   padding-left: 50px;
+  color: white;
+}
+
+.intro h1, .intro h2 {
   color: black;
   text-shadow: 1px 1px 0 #F1D223, 1px -1px 0 #F1D223, -1px 1px 0 #F1D223, -1px -1px 0 #F1D223, 1px 0px 0 #F1D223, 0px 1px 0 #F1D223, -1px 0px 0 #F1D223, 0px -1px 0 #F1D223;
+}
+
+.buscador {
+  color: white;
+  right: 10px;
+
+  position: fixed;
 }

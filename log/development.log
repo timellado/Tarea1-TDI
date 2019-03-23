@@ -2504,3 +2504,1374 @@ Processing by AppController#planet as HTML
 Completed 200 OK in 15653ms (Views: 30.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-03-23 18:16:04 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 3824ms
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"search", :controller=>"app"}):
+    11:   <body>
+    12:     <nav>
+    13:       <div class="buscador">
+    14:         <%= form_tag(controller: "app", action: "search") do %>
+    15:           <%= label_tag(:q, "Buscar:") %>
+    16:           <%= text_field_tag(:q) %>
+    17:           <%= submit_tag("Buscar") %>
+  
+app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__3824932381737372422_47111048951760'
+Started GET "/" for 127.0.0.1 at 2019-03-23 18:17:10 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 3264ms
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"search", :controller=>"app"}):
+    11:   <body>
+    12:     <nav>
+    13:       <div class="buscador">
+    14:         <%= form_tag(controller: "app", action: "search") do %>
+    15:           <%= label_tag(:q, "Buscar:") %>
+    16:           <%= text_field_tag(:q) %>
+    17:           <%= submit_tag("Buscar") %>
+  
+app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__3824932381737372422_69978842398620'
+Started GET "/" for 127.0.0.1 at 2019-03-23 18:17:35 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 2670ms (Views: 33.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 18:18:55 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 3295ms (Views: 53.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 18:19:28 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 3013ms (Views: 27.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 18:19:42 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 3112ms (Views: 30.3ms)
+
+
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 18:20:00 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/app/search"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-03-23 18:20:36 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 3731ms (Views: 31.4ms)
+
+
+Started POST "/app/search?method=get" for 127.0.0.1 at 2019-03-23 18:20:41 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/app/search"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-03-23 18:21:32 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 3221ms (Views: 30.0ms)
+
+
+Started POST "/app/search?method=get" for 127.0.0.1 at 2019-03-23 18:21:36 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/app/search"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/app/search?method=get" for 127.0.0.1 at 2019-03-23 18:21:45 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/app/search"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/asdsad" for 127.0.0.1 at 2019-03-23 18:23:34 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/asdsad"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-03-23 18:23:42 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 2885ms (Views: 32.2ms)
+
+
+Started POST "/app/search?method=get" for 127.0.0.1 at 2019-03-23 18:23:51 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OqiZsbCOEy7vOsV42gKPmEFkY8VwX08+TkWMxmfAQYuJcH+7uFBxwdtDKuSmb6Bt3PEwO4gvX34/rpMvcdPJIQ==", "q"=>"new", "commit"=>"Buscar", "method"=>"get"}
+Completed 500 Internal Server Error in 3222ms
+
+
+  
+ArgumentError ('{"title"=>"A New Hope", "episode_id"=>4, "opening_crawl"=>"It is a period of civil war.\r\nRebel spaceships, striking\r\nfrom a hidden base, have won\r\ntheir first victory against\r\nthe evil Galactic Empire.\r\n\r\nDuring the battle, Rebel\r\nspies managed to steal secret\r\nplans to the Empire's\r\nultimate weapon, the DEATH\r\nSTAR, an armored space\r\nstation with enough power\r\nto destroy an entire planet.\r\n\r\nPursued by the Empire's\r\nsinister agents, Princess\r\nLeia races home aboard her\r\nstarship, custodian of the\r\nstolen plans that can save her\r\npeople and restore\r\nfreedom to the galaxy....", "director"=>"George Lucas", "producer"=>"Gary Kurtz, Rick McCallum", "release_date"=>"1977-05-25", "characters"=>["https://swapi.co/api/people/1/", "https://swapi.co/api/people/2/", "https://swapi.co/api/people/3/", "https://swapi.co/api/people/4/", "https://swapi.co/api/people/5/", "https://swapi.co/api/people/6/", "https://swapi.co/api/people/7/", "https://swapi.co/api/people/8/", "https://swapi.co/api/people/9/", "https://swapi.co/api/people/10/", "https://swapi.co/api/people/12/", "https://swapi.co/api/people/13/", "https://swapi.co/api/people/14/", "https://swapi.co/api/people/15/", "https://swapi.co/api/people/16/", "https://swapi.co/api/people/18/", "https://swapi.co/api/people/19/", "https://swapi.co/api/people/81/"], "planets"=>["https://swapi.co/api/planets/2/", "https://swapi.co/api/planets/3/", "https://swapi.co/api/planets/1/"], "starships"=>["https://swapi.co/api/starships/2/", "https://swapi.co/api/starships/3/", "https://swapi.co/api/starships/5/", "https://swapi.co/api/starships/9/", "https://swapi.co/api/starships/10/", "https://swapi.co/api/starships/11/", "https://swapi.co/api/starships/12/", "https://swapi.co/api/starships/13/"], "vehicles"=>["https://swapi.co/api/vehicles/4/", "https://swapi.co/api/vehicles/6/", "https://swapi.co/api/vehicles/7/", "https://swapi.co/api/vehicles/8/"], "species"=>["https://swapi.co/api/species/5/", "https://swapi.co/api/species/3/", "https://swapi.co/api/species/2/", "https://swapi.co/api/species/1/", "https://swapi.co/api/species/4/"], "created"=>"2014-12-10T14:23:31.880000Z", "edited"=>"2015-04-11T09:46:52.774897Z", "url"=>"https://swapi.co/api/films/1/"}' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+  
+app/controllers/app_controller.rb:89:in `search'
+Started POST "/app/search?method=get" for 127.0.0.1 at 2019-03-23 18:26:34 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OqiZsbCOEy7vOsV42gKPmEFkY8VwX08+TkWMxmfAQYuJcH+7uFBxwdtDKuSmb6Bt3PEwO4gvX34/rpMvcdPJIQ==", "q"=>"new", "commit"=>"Buscar", "method"=>"get"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for nil port 80)):
+  
+app/controllers/app_controller.rb:90:in `search'
+Started POST "/app/search?method=get" for 127.0.0.1 at 2019-03-23 18:29:40 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OqiZsbCOEy7vOsV42gKPmEFkY8VwX08+TkWMxmfAQYuJcH+7uFBxwdtDKuSmb6Bt3PEwO4gvX34/rpMvcdPJIQ==", "q"=>"new", "commit"=>"Buscar", "method"=>"get"}
+No template found for AppController#search, rendering head :no_content
+Completed 204 No Content in 5694ms
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 18:30:35 -0300
+Processing by AppController#index as HTML
+Started GET "/" for 127.0.0.1 at 2019-03-23 18:30:37 -0300
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 2729ms (Views: 24.4ms)
+
+
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 2342ms (Views: 13.4ms)
+
+
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 18:30:43 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vuOc5Jr6AUimW9uqA8ZtLs6hNJTbC44mumsAf64j07ENO3rukiRjp5IiNDZ/q0LbUzRnaiN7nmbLgB+WuDBbGw==", "q"=>"new", "commit"=>"Buscar"}
+Completed 500 Internal Server Error in 5856ms
+
+
+  
+NameError (undefined local variable or method `films' for #<AppController:0x00007f4a6e22c030>
+Did you mean?  film
+               @films):
+  
+app/controllers/app_controller.rb:93:in `search'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 18:31:00 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vuOc5Jr6AUimW9uqA8ZtLs6hNJTbC44mumsAf64j07ENO3rukiRjp5IiNDZ/q0LbUzRnaiN7nmbLgB+WuDBbGw==", "q"=>"new", "commit"=>"Buscar"}
+No template found for AppController#search, rendering head :no_content
+Completed 204 No Content in 5533ms
+
+
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 18:46:21 -0300
+  
+SyntaxError (/home/t_pc/Uc/2019-1/TDI/Tarea1-TDI/app/controllers/app_controller.rb:117: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/app_controller.rb:117: syntax error, unexpected end-of-input, expecting keyword_end
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 18:47:15 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vuOc5Jr6AUimW9uqA8ZtLs6hNJTbC44mumsAf64j07ENO3rukiRjp5IiNDZ/q0LbUzRnaiN7nmbLgB+WuDBbGw==", "q"=>"new", "commit"=>"Buscar"}
+Completed 500 Internal Server Error in 5576ms
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/app_controller.rb:99:in `[]'
+app/controllers/app_controller.rb:99:in `block in search'
+app/controllers/app_controller.rb:98:in `search'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 18:49:41 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vuOc5Jr6AUimW9uqA8ZtLs6hNJTbC44mumsAf64j07ENO3rukiRjp5IiNDZ/q0LbUzRnaiN7nmbLgB+WuDBbGw==", "q"=>"new", "commit"=>"Buscar"}
+Completed 500 Internal Server Error in 5534ms
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/app_controller.rb:99:in `[]'
+app/controllers/app_controller.rb:99:in `block in search'
+app/controllers/app_controller.rb:98:in `search'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 18:51:37 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vuOc5Jr6AUimW9uqA8ZtLs6hNJTbC44mumsAf64j07ENO3rukiRjp5IiNDZ/q0LbUzRnaiN7nmbLgB+WuDBbGw==", "q"=>"new", "commit"=>"Buscar"}
+Completed 500 Internal Server Error in 5931ms
+
+
+  
+NameError (undefined local variable or method `starships' for #<AppController:0x00007f4a6e20c280>
+Did you mean?  starship
+               starship
+               @starships):
+  
+app/controllers/app_controller.rb:112:in `search'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 18:52:15 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vuOc5Jr6AUimW9uqA8ZtLs6hNJTbC44mumsAf64j07ENO3rukiRjp5IiNDZ/q0LbUzRnaiN7nmbLgB+WuDBbGw==", "q"=>"new", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 5451ms (Views: 36.3ms)
+
+
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 18:54:58 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HItz94nmbgR3SXhxrTEqfUSlPW12R9AG+WegiMavpmavU5X9gTgM60Mwl+3RXAWI2TBuk443wEaIjL9h0LwuzA==", "q"=>"an", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 7363ms (Views: 62.6ms)
+
+
+Started GET "/app/search" for 127.0.0.1 at 2019-03-23 18:55:31 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/search"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 18:55:40 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HItz94nmbgR3SXhxrTEqfUSlPW12R9AG+WegiMavpmavU5X9gTgM60Mwl+3RXAWI2TBuk443wEaIjL9h0LwuzA==", "q"=>"an", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 5576ms (Views: 24.5ms)
+
+
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 18:55:52 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vuOc5Jr6AUimW9uqA8ZtLs6hNJTbC44mumsAf64j07ENO3rukiRjp5IiNDZ/q0LbUzRnaiN7nmbLgB+WuDBbGw==", "q"=>"an", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 7511ms (Views: 30.0ms)
+
+
+Started GET "/app/search" for 127.0.0.1 at 2019-03-23 18:57:09 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/search"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-03-23 18:57:14 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 2938ms (Views: 57.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 18:57:58 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 4146ms (Views: 31.7ms)
+
+
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 18:58:10 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SenXGhfIyFZFa8JgTRf4fCOrg1VJG/dswya3QYk/YYb6MTEQHxaquXESLfwxeteJvj7Qq7Fr5yyyzaionyzpLA==", "q"=>"an", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 6201ms (Views: 35.4ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F10%2F" for 127.0.0.1 at 2019-03-23 18:58:26 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/10/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 17380ms (Views: 30.6ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F10%2F" for 127.0.0.1 at 2019-03-23 18:59:56 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/10/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 17191ms (Views: 44.0ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F10%2F" for 127.0.0.1 at 2019-03-23 19:04:17 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/10/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 16661ms (Views: 64.6ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F20%2F" for 127.0.0.1 at 2019-03-23 19:05:01 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/20/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 4214ms (Views: 54.7ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F20%2F" for 127.0.0.1 at 2019-03-23 19:05:05 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/20/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2326ms (Views: 12.6ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F20%2F" for 127.0.0.1 at 2019-03-23 19:06:49 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/20/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 2501ms (Views: 52.1ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F20%2F" for 127.0.0.1 at 2019-03-23 19:10:45 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/20/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3159ms (Views: 26.6ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F20%2F" for 127.0.0.1 at 2019-03-23 19:10:56 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/20/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 2327ms (Views: 31.8ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F20%2F" for 127.0.0.1 at 2019-03-23 19:11:30 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/20/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2550ms (Views: 27.6ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F20%2F" for 127.0.0.1 at 2019-03-23 19:13:12 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/20/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 2810ms (Views: 30.8ms)
+
+
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:13:17 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LkcIRxYYBkhTZiyg+UalQFrBfA5QEPuuwBiGf7S/uQqdn+5NHsZkp2cfwzyFK4q1x1Qv8Khg6+6x85mWoqwxoA==", "q"=>"an", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 5222ms (Views: 35.1ms)
+
+
+Started GET "/app/app/assets/images/SW.png" for 127.0.0.1 at 2019-03-23 19:13:22 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/app/assets/images/SW.png"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/app/search" for 127.0.0.1 at 2019-03-23 19:13:35 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/search"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:13:41 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LkcIRxYYBkhTZiyg+UalQFrBfA5QEPuuwBiGf7S/uQqdn+5NHsZkp2cfwzyFK4q1x1Qv8Khg6+6x85mWoqwxoA==", "q"=>"asd", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5897ms (Views: 11.9ms)
+
+
+Started GET "/app/assets/images/SW.png" for 127.0.0.1 at 2019-03-23 19:13:47 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/SW.png"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:13:56 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cz8wugtZFUS7dsqatOjfinMwkp3nKXWqn2B79/JN4XfA59awA4d3q48PJQbIhfB/7qXBYx9ZZerui2Qe5F5p3Q==", "q"=>"asd", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 5142ms (Views: 31.2ms)
+
+
+Started GET "/app/images/SW.png" for 127.0.0.1 at 2019-03-23 19:14:02 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/images/SW.png"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:14:10 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1Xi0GWiFGgeu0wG/gDNL/A4pfU+XOT8uKdugEWKK4lpmoFITYFt46Jqq7iP8XmQJk7wusW9JL25YML/4dJlq8A==", "q"=>"aaa", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 5820ms (Views: 32.2ms)
+
+
+Started GET "/app/SW.png" for 127.0.0.1 at 2019-03-23 19:14:16 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/SW.png"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:15:56 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NaD3Ym2Js4HVB12zxWss432Agd3+Ol+hjxNrqx0QfXWGeBFoZVfRbuF+si+5BgMW4BXSIwZKT+H++HRCCwP13w==", "q"=>"a", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 6287ms (Views: 26.8ms)
+
+
+Started GET "/app/SW.jpg" for 127.0.0.1 at 2019-03-23 19:16:02 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/SW.jpg"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:16:19 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CCyqfoBj9BWF5tgDd/rGwAIrfHEQVnrFEIqhueV1CAK79Ex0iL2W+rGfN58Ll+k1n74vj+gmaoVhYb5Q82aAqA==", "q"=>"asdd", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5550ms (Views: 12.4ms)
+
+
+Started GET "/app/app/assets/images/SW.jpg" for 127.0.0.1 at 2019-03-23 19:16:25 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/app/assets/images/SW.jpg"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/app/search" for 127.0.0.1 at 2019-03-23 19:16:33 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/search"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:16:36 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CCyqfoBj9BWF5tgDd/rGwAIrfHEQVnrFEIqhueV1CAK79Ex0iL2W+rGfN58Ll+k1n74vj+gmaoVhYb5Q82aAqA==", "q"=>"asdd", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 5242ms (Views: 30.6ms)
+
+
+Started GET "/app/assets/images/SW.jpg" for 127.0.0.1 at 2019-03-23 19:16:42 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/SW.jpg"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:16:49 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"77GLZOSd41wLzCKJXZl5D55NYz2gyiU0iEd+Oh6gnI1caW1u7EOBsz+1zRUh9Fb6A9gww1i6NXT5rGHTCLMUJw==", "q"=>"aa", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5045ms (Views: 12.8ms)
+
+
+Started GET "/app/images/SW.jpg" for 127.0.0.1 at 2019-03-23 19:16:54 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/images/SW.jpg"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:19:15 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8Us1PkCALJ3f/bIc4kYy832dB5XxurePkbsQEUISRWtCk9M0SF5OcuuEXYCeKx0G4AhUawnKp8/gUA/4VAHNwQ==", "q"=>"asd", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5642ms (Views: 45.4ms)
+
+
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:21:48 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5Fukn5yFElSm7E5lLmT8+q//jVutWrlM6/G1Jkcm6INXg0KVlFtwu5KVoflSCdMPMmrepVUqqQyaGqrPUTVgKQ==", "q"=>"asd", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6297ms (Views: 1211.4ms)
+
+
+Started GET "/app/search" for 127.0.0.1 at 2019-03-23 19:22:10 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/search"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:22:14 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5Fukn5yFElSm7E5lLmT8+q//jVutWrlM6/G1Jkcm6INXg0KVlFtwu5KVoflSCdMPMmrepVUqqQyaGqrPUTVgKQ==", "q"=>"asd", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 5431ms (Views: 48.4ms)
+
+
+Started GET "/app/search" for 127.0.0.1 at 2019-03-23 19:23:03 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/search"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:23:06 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5Fukn5yFElSm7E5lLmT8+q//jVutWrlM6/G1Jkcm6INXg0KVlFtwu5KVoflSCdMPMmrepVUqqQyaGqrPUTVgKQ==", "q"=>"asd", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5669ms (Views: 27.1ms)
+
+
+Started GET "/app/search" for 127.0.0.1 at 2019-03-23 19:23:19 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/search"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:23:21 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5Fukn5yFElSm7E5lLmT8+q//jVutWrlM6/G1Jkcm6INXg0KVlFtwu5KVoflSCdMPMmrepVUqqQyaGqrPUTVgKQ==", "q"=>"asd", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 5276ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...e: image-url(SW": expected ")", was ".png);"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/app.scss:7
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3555812376652327629_70206710107940'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:23:59 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5Fukn5yFElSm7E5lLmT8+q//jVutWrlM6/G1Jkcm6INXg0KVlFtwu5KVoflSCdMPMmrepVUqqQyaGqrPUTVgKQ==", "q"=>"asd", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5453ms (Views: 12.4ms)
+
+
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:25:17 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6Idy4QWxpuxdtSS9ToWCwX/txiAapLbyR9wQ2bVkKehbX5TrDW/EA2nMyyEy6K004niV3uLUprI2Nw8wo3ehQg==", "q"=>"ass", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 10342ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...und-image: url(": expected ")", was "<%= asset_path ..."):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/app.scss:7
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3555812376652327629_70206643484780'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:26:41 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6Idy4QWxpuxdtSS9ToWCwX/txiAapLbyR9wQ2bVkKehbX5TrDW/EA2nMyyEy6K004niV3uLUprI2Nw8wo3ehQg==", "q"=>"asss", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 5841ms (Views: 56.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 19:27:00 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 7161ms (Views: 155.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 19:27:43 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 3081ms (Views: 64.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 19:28:44 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 4295ms (Views: 49.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 19:33:12 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 2901ms (Views: 346.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 19:33:41 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 2036ms (Views: 104.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 19:34:06 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 2929ms (Views: 67.3ms)
+
+
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:34:16 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dzVqx07ANVAo0A1IY2muOJvUvofYFcddTf6tm2TmC6jE7YzNRh5Xvxyp4tQfBIHNBkHteSBl1x08FbJycvWDAg==", "q"=>"an", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 5417ms (Views: 33.6ms)
+
+
+Started GET "/app/starship?url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F21%2F" for 127.0.0.1 at 2019-03-23 19:34:30 -0300
+Processing by AppController#starship as HTML
+  Parameters: {"url"=>"https://swapi.co/api/starships/21/"}
+  Rendering app/starship.html.erb within layouts/application
+  Rendered app/starship.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 4252ms (Views: 29.6ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F22%2F" for 127.0.0.1 at 2019-03-23 19:34:40 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/22/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 9343ms (Views: 30.1ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F22%2F" for 127.0.0.1 at 2019-03-23 19:35:22 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/22/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 7561ms (Views: 51.6ms)
+
+
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:36:15 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pgXwW1UdH+n9vN1hZzNeopMXFLvA640usb8zG6MvjqgV3RZRXcN9BsnFMv0bXnFXDoJHRTibnW7AVCzytTwGAg==", "q"=>"an", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 8749ms (Views: 32.5ms)
+
+
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:38:20 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h4YEjPAdKP6IdfxkgIQhUwOzwZ6NXiCdoWtmC6Wwg5w0XuKG+MNKEbwME/j86Q6mniaSYHUuMN3QgHnis6MLNg==", "q"=>"aa", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 4089ms (Views: 32.0ms)
+
+
+Started GET "/app/starship?url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F47%2F" for 127.0.0.1 at 2019-03-23 19:38:33 -0300
+Processing by AppController#starship as HTML
+  Parameters: {"url"=>"https://swapi.co/api/starships/47/"}
+  Rendering app/starship.html.erb within layouts/application
+  Rendered app/starship.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2443ms (Views: 27.4ms)
+
+
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:38:45 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1uUkfsOwpBTaAumn85S8Z6FhqvC+wZvIiNleED1fZcZFTK6rHrYLDfsqCr0nSy6Qo1ACOX1xQGqpFc0mxv3YCQ==", "q"=>"clon", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 4477ms (Views: 29.9ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-23 19:38:51 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/5/"}
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-23 19:39:51 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/5/"}
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 60361ms (Views: 15.3ms)
+
+
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 53747ms (Views: 35.8ms)
+
+
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:41:27 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2RuhDPHf60kX4Q+fU8TQbX9mOIxEnuw+yny65+2ggjBqw0cG+QGJpiOY4AMvqf+Y4vNrcrzu/H67l6UO+7MKmg==", "q"=>"aaa", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 4141ms (Views: 52.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 19:41:39 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 2306ms (Views: 31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 19:42:04 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 2235ms (Views: 49.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 19:42:33 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 2957ms (Views: 49.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 19:44:46 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 2130ms (Views: 50.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 19:45:08 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 2289ms (Views: 49.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 19:45:23 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 2610ms (Views: 54.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 19:45:35 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 2264ms (Views: 51.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 19:45:55 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 2442ms (Views: 49.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 19:46:23 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 2381ms (Views: 52.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 19:46:36 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 2034ms (Views: 50.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 19:46:45 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 2187ms (Views: 51.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-23 19:46:55 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 2074ms (Views: 49.7ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-23 19:47:05 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/5/"}
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 58958ms (Views: 36.6ms)
+
+
+Started GET "/app/starship?url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F48%2F" for 127.0.0.1 at 2019-03-23 19:48:26 -0300
+Processing by AppController#starship as HTML
+  Parameters: {"url"=>"https://swapi.co/api/starships/48/"}
+  Rendering app/starship.html.erb within layouts/application
+  Rendered app/starship.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 5535ms (Views: 22.7ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F58%2F" for 127.0.0.1 at 2019-03-23 19:49:02 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/58/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 6591ms (Views: 28.9ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F49%2F" for 127.0.0.1 at 2019-03-23 19:49:37 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/49/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 2210ms (Views: 27.9ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F49%2F" for 127.0.0.1 at 2019-03-23 19:52:30 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/49/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 2390ms (Views: 23.3ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F49%2F" for 127.0.0.1 at 2019-03-23 19:52:48 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/49/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1939ms (Views: 30.5ms)
+
+
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:52:59 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OJ6BS3Zq+Vwnf0dm1/1kDDkQfuDDv6ETpBEShtzWLLuLRmdBfrSbsxMGqPqrkEv5pIUtHjvPsVPV+g1vysWkEQ==", "q"=>"dor", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 5227ms (Views: 34.5ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F7%2F" for 127.0.0.1 at 2019-03-23 19:53:08 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/7/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 3086ms (Views: 29.3ms)
+
+

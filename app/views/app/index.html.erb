@@ -18,10 +18,10 @@
       <tr>
         <td class="hover"><%= link_to film["title"], {controller: "app", action: "film", url: film["url"]} %></td>
         <td><%= film["episode_id"] %></td>
-        <td class="hover"><%= film["director"] %></td>
-        <td class="hover"><%= film["producer"] %></td>
+        <td><%= film["director"] %></td>
+        <td><%= film["producer"] %></td>
         <td><%= film["release_date"] %></td>
-        <td><%= link_to "más info", {controller: "app", action: "film", url: film["url"]} %></td>
+        <td class="hover"><%= link_to "más info", {controller: "app", action: "film", url: film["url"]} %></td>
       </tr>
       <% end %>
     </tbody>
