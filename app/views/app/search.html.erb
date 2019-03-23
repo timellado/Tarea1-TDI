@@ -58,3 +58,9 @@
     </table>
   </div>
 <% end %>
+
+<% if @starships == [] && @planets == [] && @people == [] && @films == [] %>
+  <div class="intro">
+    <h2>No hay resultados que mostrar</h2>
+  </div>
+<% end %>

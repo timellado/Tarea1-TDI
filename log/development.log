@@ -3875,3 +3875,80 @@ Processing by AppController#planet as HTML
 Completed 200 OK in 3086ms (Views: 29.3ms)
 
 
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 19:59:03 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"c+qDhoc5Biz6tyREL3Dytd+KmQGGSrtlk/xMlfdK3CngQwlTWj+pNdufx177r2BC3bsxyEX6YMeyMN+jDOhh5g==", "q"=>"asdda", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 3814ms
+
+
+  
+SyntaxError (/home/t_pc/Uc/2019-1/TDI/Tarea1-TDI/app/views/app/search.html.erb:62: syntax error, unexpected ==
+... @starships == [] & @planets == [] & @people == [] & @films ...
+...                             ^~
+/home/t_pc/Uc/2019-1/TDI/Tarea1-TDI/app/views/app/search.html.erb:62: syntax error, unexpected ==
+... [] & @people == [] & @films == [] 
+...                             ^~
+/home/t_pc/Uc/2019-1/TDI/Tarea1-TDI/app/views/app/search.html.erb:66: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/app/search.html.erb:62: syntax error, unexpected ==
+app/views/app/search.html.erb:62: syntax error, unexpected ==
+app/views/app/search.html.erb:66: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 20:00:02 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"c+qDhoc5Biz6tyREL3Dytd+KmQGGSrtlk/xMlfdK3CngQwlTWj+pNdufx177r2BC3bsxyEX6YMeyMN+jDOhh5g==", "q"=>"asdda", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 5210ms (Views: 1256.2ms)
+
+
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 20:00:57 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lI/p7OpN2zqe2E27BsV1i05IVRXzqmU4Q3Gh4R3jJLwnVw/m4pO51aqhoid6qFp+090G6wvadXgymr4IC/CsFg==", "q"=>"asdd", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 3847ms (Views: 29.1ms)
+
+
+Started GET "/app/search" for 127.0.0.1 at 2019-03-23 20:01:33 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/search"):
+  
+actionpack (5.1.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/app/search" for 127.0.0.1 at 2019-03-23 20:01:36 -0300
+Processing by AppController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lI/p7OpN2zqe2E27BsV1i05IVRXzqmU4Q3Gh4R3jJLwnVw/m4pO51aqhoid6qFp+090G6wvadXgymr4IC/CsFg==", "q"=>"asdd", "commit"=>"Buscar"}
+  Rendering app/search.html.erb within layouts/application
+  Rendered app/search.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 4490ms (Views: 28.7ms)
+
+
