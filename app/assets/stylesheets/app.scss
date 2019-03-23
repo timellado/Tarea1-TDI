@@ -3,32 +3,68 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+body {
+  background: url("https://lh4.googleusercontent.com/proxy/00XUnMsBeUCK6fOVgbzop6-eqmDP7tI9piqWkHzHmpH4aEXZVySHMVMB_2haKdh6HgGjyndVVDmge4s=s0-d");
+  width: 98%;
+  background-size: cover;
+}
+
 th {
   text-align: left;
-  background-color: #4CAF50;
+  background-color: #F1D223;
   color: white;
 }
+
 td {
-  padding: 0;
   margin: 0;
+  background-color: #b0c4de;
 }
 
 tr:nth-child(even) {background-color: #f2f2f2;}
+
 .hover:hover {
-  background-color: #ddd;
+  background-color: #717171;
   cursor: pointer;
+}
+
+.hover {
+  background-color: #789ac7;
 }
 
 
 th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
   margin: 0;
+  padding: 8px;
+}
+
+table {
+  display: block;
+  margin-left: 50px;
 }
 
 table a {
   text-decoration: none;
-  display: block;
-  height: 100%;
+  display: inline-block;
+  height: 40px;
+  width: 200px;;
   color: black;
+  text-align: center;
+}
+
+.spaceships, .planets, .people, .films, .general{
+  overflow-x: auto;
+  align-content: center;
+  margin-top: 20px;
+}
+
+.planets-table td {
+  height: 40px;
+  width: 200px;
+}
+
+.intro {
+  padding-top: 50px;
+  padding-left: 50px;
+  color: black;
+  text-shadow: 1px 1px 0 #F1D223, 1px -1px 0 #F1D223, -1px 1px 0 #F1D223, -1px -1px 0 #F1D223, 1px 0px 0 #F1D223, 0px 1px 0 #F1D223, -1px 0px 0 #F1D223, 0px -1px 0 #F1D223;
 }

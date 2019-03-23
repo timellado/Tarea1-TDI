@@ -1885,3 +1885,622 @@ Processing by AppController#film as HTML
 Completed 200 OK in 39874ms (Views: 39.7ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-03-23 16:11:15 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 3126ms (Views: 149.9ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-23 16:15:29 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/1/"}
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 40200ms (Views: 158.1ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-23 16:28:10 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/1/"}
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 38822ms (Views: 51.4ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-23 16:30:02 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/1/"}
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 40030ms (Views: 52.8ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F3%2F" for 127.0.0.1 at 2019-03-23 16:30:46 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/3/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 2779ms (Views: 16.7ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F1%2F" for 127.0.0.1 at 2019-03-23 16:31:11 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/1/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 20762ms (Views: 28.1ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F43%2F" for 127.0.0.1 at 2019-03-23 16:32:04 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/43/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 5283ms (Views: 39.7ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F43%2F" for 127.0.0.1 at 2019-03-23 16:32:09 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/43/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 5130ms (Views: 28.7ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F4%2F" for 127.0.0.1 at 2019-03-23 16:32:50 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/4/"}
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 56214ms (Views: 41.2ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F4%2F" for 127.0.0.1 at 2019-03-23 16:35:36 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/4/"}
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 61057ms (Views: 52.9ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F16%2F" for 127.0.0.1 at 2019-03-23 16:36:50 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/16/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 10276ms (Views: 26.6ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F16%2F" for 127.0.0.1 at 2019-03-23 16:38:53 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/16/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 6226ms (Views: 42.7ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F4%2F" for 127.0.0.1 at 2019-03-23 16:39:09 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/4/"}
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F4%2F" for 127.0.0.1 at 2019-03-23 16:39:12 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/4/"}
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F3%2F" for 127.0.0.1 at 2019-03-23 16:39:13 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/3/"}
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-23 16:39:16 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/1/"}
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F3%2F" for 127.0.0.1 at 2019-03-23 16:39:18 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/3/"}
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 43272ms (Views: 33.0ms)
+
+
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 40540ms (Views: 13.9ms)
+
+
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 51333ms (Views: 31.6ms)
+
+
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 46282ms (Views: 31.3ms)
+
+
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 62051ms (Views: 38.4ms)
+
+
+Started GET "/app/starship?url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F23%2F" for 127.0.0.1 at 2019-03-23 16:40:23 -0300
+Processing by AppController#starship as HTML
+  Parameters: {"url"=>"https://swapi.co/api/starships/23/"}
+  Rendering app/starship.html.erb within layouts/application
+  Rendered app/starship.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 4097ms (Views: 25.8ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F3%2F" for 127.0.0.1 at 2019-03-23 16:41:59 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/3/"}
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F3%2F" for 127.0.0.1 at 2019-03-23 16:42:02 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/3/"}
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 66969ms (Views: 42.8ms)
+
+
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 69788ms (Views: 28.1ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F5%2F" for 127.0.0.1 at 2019-03-23 16:45:15 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/5/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 5303ms (Views: 29.1ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F5%2F" for 127.0.0.1 at 2019-03-23 16:45:20 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/5/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 4840ms (Views: 29.4ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F5%2F" for 127.0.0.1 at 2019-03-23 16:47:25 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/5/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 6915ms (Views: 43.6ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F3%2F" for 127.0.0.1 at 2019-03-23 16:48:10 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/3/"}
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 49398ms (Views: 30.0ms)
+
+
+Started GET "/app/starship?url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F17%2F" for 127.0.0.1 at 2019-03-23 16:49:03 -0300
+Processing by AppController#starship as HTML
+  Parameters: {"url"=>"https://swapi.co/api/starships/17/"}
+  Rendering app/starship.html.erb within layouts/application
+  Rendered app/starship.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 3626ms (Views: 24.9ms)
+
+
+Started GET "/app/starship?url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F17%2F" for 127.0.0.1 at 2019-03-23 16:49:16 -0300
+Processing by AppController#starship as HTML
+  Parameters: {"url"=>"https://swapi.co/api/starships/17/"}
+  Rendering app/starship.html.erb within layouts/application
+  Rendered app/starship.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 4191ms (Views: 51.1ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F3%2F" for 127.0.0.1 at 2019-03-23 16:52:37 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/3/"}
+Started GET "/app/starship?url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F17%2F" for 127.0.0.1 at 2019-03-23 16:52:39 -0300
+Processing by AppController#starship as HTML
+  Parameters: {"url"=>"https://swapi.co/api/starships/17/"}
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F3%2F" for 127.0.0.1 at 2019-03-23 16:52:40 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/3/"}
+  Rendering app/starship.html.erb within layouts/application
+  Rendered app/starship.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 9145ms (Views: 20.0ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F3%2F" for 127.0.0.1 at 2019-03-23 16:53:40 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/3/"}
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 67714ms (Views: 33.5ms)
+
+
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 88492ms (Views: 33.8ms)
+
+
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 52642ms (Views: 31.7ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F7%2F" for 127.0.0.1 at 2019-03-23 16:57:19 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/7/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 4276ms (Views: 28.0ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F3%2F" for 127.0.0.1 at 2019-03-23 16:57:46 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/3/"}
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F5%2F" for 127.0.0.1 at 2019-03-23 16:57:49 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/5/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 10281ms (Views: 26.6ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F6%2F" for 127.0.0.1 at 2019-03-23 16:58:04 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/6/"}
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 55757ms (Views: 30.3ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F6%2F" for 127.0.0.1 at 2019-03-23 16:59:04 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/6/"}
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 111201ms (Views: 38.6ms)
+
+
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 93362ms (Views: 39.2ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F3%2F" for 127.0.0.1 at 2019-03-23 17:01:12 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/3/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 12178ms (Views: 30.1ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F8%2F" for 127.0.0.1 at 2019-03-23 17:01:42 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/8/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 21280ms (Views: 27.4ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F8%2F" for 127.0.0.1 at 2019-03-23 17:08:27 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/8/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 24003ms (Views: 45.6ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F8%2F" for 127.0.0.1 at 2019-03-23 17:09:19 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/8/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 21225ms (Views: 50.6ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F8%2F" for 127.0.0.1 at 2019-03-23 17:11:10 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/8/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 20561ms (Views: 45.0ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F8%2F" for 127.0.0.1 at 2019-03-23 17:13:50 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/8/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 20518ms (Views: 46.1ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F8%2F" for 127.0.0.1 at 2019-03-23 17:14:28 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/8/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 20190ms (Views: 50.6ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-23 17:14:59 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/5/"}
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F5%2F" for 127.0.0.1 at 2019-03-23 17:15:59 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/5/"}
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 75540ms (Views: 47.3ms)
+
+
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 80170ms (Views: 38.2ms)
+
+
+Started GET "/app/starship?url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F39%2F" for 127.0.0.1 at 2019-03-23 17:18:24 -0300
+Processing by AppController#starship as HTML
+  Parameters: {"url"=>"https://swapi.co/api/starships/39/"}
+  Rendering app/starship.html.erb within layouts/application
+  Rendered app/starship.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 7777ms (Views: 44.2ms)
+
+
+Started GET "/app/starship?url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F39%2F" for 127.0.0.1 at 2019-03-23 17:18:32 -0300
+Processing by AppController#starship as HTML
+  Parameters: {"url"=>"https://swapi.co/api/starships/39/"}
+  Rendering app/starship.html.erb within layouts/application
+  Rendered app/starship.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 7553ms (Views: 31.0ms)
+
+
+Started GET "/app/starship?url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F39%2F" for 127.0.0.1 at 2019-03-23 17:19:05 -0300
+Processing by AppController#starship as HTML
+  Parameters: {"url"=>"https://swapi.co/api/starships/39/"}
+  Rendering app/starship.html.erb within layouts/application
+  Rendered app/starship.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 8228ms (Views: 30.1ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F11%2F" for 127.0.0.1 at 2019-03-23 17:19:30 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/11/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 10531ms (Views: 26.9ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F11%2F" for 127.0.0.1 at 2019-03-23 17:23:11 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/11/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 12658ms (Views: 50.1ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F11%2F" for 127.0.0.1 at 2019-03-23 17:24:32 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/11/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 9957ms (Views: 48.2ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F11%2F" for 127.0.0.1 at 2019-03-23 17:25:00 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/11/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 10064ms (Views: 74.9ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F11%2F" for 127.0.0.1 at 2019-03-23 17:25:27 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/11/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 10227ms (Views: 39.6ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F11%2F" for 127.0.0.1 at 2019-03-23 17:27:19 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/11/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 11866ms (Views: 29.5ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F11%2F" for 127.0.0.1 at 2019-03-23 17:32:33 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/11/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 11506ms (Views: 53.3ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F11%2F" for 127.0.0.1 at 2019-03-23 17:34:46 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/11/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 10420ms (Views: 48.8ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F11%2F" for 127.0.0.1 at 2019-03-23 17:35:53 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/11/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 10019ms (Views: 47.1ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F11%2F" for 127.0.0.1 at 2019-03-23 17:37:21 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/11/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 10930ms (Views: 49.7ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F11%2F" for 127.0.0.1 at 2019-03-23 17:47:08 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/11/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 11260ms (Views: 45.7ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F11%2F" for 127.0.0.1 at 2019-03-23 17:47:31 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/11/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 10986ms (Views: 47.9ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F11%2F" for 127.0.0.1 at 2019-03-23 17:48:50 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/11/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 10048ms (Views: 49.3ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F11%2F" for 127.0.0.1 at 2019-03-23 17:49:19 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/11/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 11573ms (Views: 49.3ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F11%2F" for 127.0.0.1 at 2019-03-23 17:50:06 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/11/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 10434ms (Views: 47.7ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F11%2F" for 127.0.0.1 at 2019-03-23 17:50:45 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/11/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 10060ms (Views: 48.2ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F11%2F" for 127.0.0.1 at 2019-03-23 17:51:43 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/11/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 10713ms (Views: 49.6ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F6%2F" for 127.0.0.1 at 2019-03-23 17:52:21 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/6/"}
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F1%2F" for 127.0.0.1 at 2019-03-23 17:53:15 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/1/"}
+Completed 500 Internal Server Error in 23548ms
+
+
+  
+OpenSSL::SSL::SSLError (SSL_connect SYSCALL returned=5 errno=0 state=unknown state):
+  
+app/controllers/app_controller.rb:74:in `block in planet'
+app/controllers/app_controller.rb:73:in `each'
+app/controllers/app_controller.rb:73:in `planet'
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 81095ms (Views: 49.0ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F1%2F" for 127.0.0.1 at 2019-03-23 17:53:56 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/1/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 21321ms (Views: 29.5ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F1%2F" for 127.0.0.1 at 2019-03-23 17:55:35 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/1/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 20576ms (Views: 46.5ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-23 17:56:52 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/1/"}
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 39624ms (Views: 30.4ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F5%2F" for 127.0.0.1 at 2019-03-23 17:58:52 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/5/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 9283ms (Views: 30.4ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F2%2F" for 127.0.0.1 at 2019-03-23 17:59:11 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/2/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 9587ms (Views: 29.1ms)
+
+
+Started GET "/app/starship?url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F11%2F" for 127.0.0.1 at 2019-03-23 17:59:28 -0300
+Processing by AppController#starship as HTML
+  Parameters: {"url"=>"https://swapi.co/api/starships/11/"}
+  Rendering app/starship.html.erb within layouts/application
+  Rendered app/starship.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 4921ms (Views: 34.3ms)
+
+
+Started GET "/app/starship?url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F11%2F" for 127.0.0.1 at 2019-03-23 18:00:40 -0300
+Processing by AppController#starship as HTML
+  Parameters: {"url"=>"https://swapi.co/api/starships/11/"}
+  Rendering app/starship.html.erb within layouts/application
+  Rendered app/starship.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 5236ms (Views: 29.2ms)
+
+
+Started GET "/app/starship?url=https%3A%2F%2Fswapi.co%2Fapi%2Fstarships%2F11%2F" for 127.0.0.1 at 2019-03-23 18:01:08 -0300
+Processing by AppController#starship as HTML
+  Parameters: {"url"=>"https://swapi.co/api/starships/11/"}
+  Rendering app/starship.html.erb within layouts/application
+  Rendered app/starship.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 5329ms (Views: 29.5ms)
+
+
+Started GET "/app/film?url=https%3A%2F%2Fswapi.co%2Fapi%2Ffilms%2F1%2F" for 127.0.0.1 at 2019-03-23 18:01:18 -0300
+Processing by AppController#film as HTML
+  Parameters: {"url"=>"https://swapi.co/api/films/1/"}
+  Rendering app/film.html.erb within layouts/application
+  Rendered app/film.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 39050ms (Views: 36.6ms)
+
+
+Started GET "/app/person?url=https%3A%2F%2Fswapi.co%2Fapi%2Fpeople%2F5%2F" for 127.0.0.1 at 2019-03-23 18:02:03 -0300
+Processing by AppController#person as HTML
+  Parameters: {"url"=>"https://swapi.co/api/people/5/"}
+  Rendering app/person.html.erb within layouts/application
+  Rendered app/person.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 8658ms (Views: 40.3ms)
+
+
+Started GET "/app/planet?url=https%3A%2F%2Fswapi.co%2Fapi%2Fplanets%2F2%2F" for 127.0.0.1 at 2019-03-23 18:02:21 -0300
+Processing by AppController#planet as HTML
+  Parameters: {"url"=>"https://swapi.co/api/planets/2/"}
+  Rendering app/planet.html.erb within layouts/application
+  Rendered app/planet.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 15653ms (Views: 30.1ms)
+
+
