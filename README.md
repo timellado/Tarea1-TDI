@@ -1,24 +1,34 @@
-# README
+# SWAPInfo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* [SWAPInfo] - página aplicación
 
-Things you may want to cover:
+Aplicación utilizada para ver información respecto a las películas de Star Wars, que consume una API desde https://swapi.co/
+ 
+#### Pagina principal
 
-* Ruby version
+Muestra información básica de todas las películas. Se puede pulsar botones de más información y el nombre de la película para detallar más información.
 
-* System dependencies
+#### Film
 
-* Configuration
+Muestra detalles respecto a la película. Se pueden pulsar los personajes de ella, las naves espaciales y losplanetas que en la película aparecen
 
-* Database creation
+#### Person
 
-* Database initialization
+Detalles de cada personaje, se puede visitar su planeta de origen, las películas en las que aparece y las naves que ha piloteado.
 
-* How to run the test suite
+#### Starship
 
-* Services (job queues, cache servers, search engines, etc.)
+Nave espacial de la saga con su información, donde se puede visitar a los pilotos y las películas donde aparece.
 
-* Deployment instructions
+#### Planet
 
-* ...
+Planeta de la saga con su información, desde la que puedes pulsar las películas en donde aparece y los residentes que tiene.
+
+#### Buscador
+
+Funcionalidad que permite buscar películas por su título, personas por su nombre, Naves espaciales por nombre o modelo y planetas por su nombre. 
+
+
+
+
+   [SWAPInfo]: <https://github.com/joemccann/dillinger>
