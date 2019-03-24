@@ -4011,3 +4011,10 @@ Processing by AppController#index as HTML
 Completed 200 OK in 13053ms (Views: 27.7ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-03-24 20:23:41 -0300
+Processing by AppController#index as HTML
+  Rendering app/index.html.erb within layouts/application
+  Rendered app/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 2894ms (Views: 391.6ms)
+
+
